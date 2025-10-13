@@ -1,3 +1,8 @@
+# Refonte du site web d’E-sport Nexus.
+
+Nexus veut moderniser son site pour offrir une expérience plus agréable et facile à utiliser, avec un design et des fonctionnalités améliorés.
+
+
 # Tâches du projet
 
 **UI/UX :** Concevoir la page principale.
