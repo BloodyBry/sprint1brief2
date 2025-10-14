@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #0a0a0f;
+    color: #fff;
+}
+
+/*navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px, 60px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar .logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(to right,cyan, rgb(255, 0, 255));
+    color: transparent;
+    background-clip: text;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0,3s;
+}
+
+.navbar a:hover {
+    color: #0ff;
+}
+
+
+
+.join-btn {
+    padding: 10px 20px;
+    border: 1px solid #0ff;
+    border-radius: 6px;
+    color:black;
+    text-decoration: none;
+    transition: 0,3s;
+    background-color: #0ff;
+}
+
+.join-btn:hover {
+    background: #0ff;
+    color: black;
+}
+
+.hero {
+    position: relative;
+    height: 85vh;
+    background: url(https://i.pinimg.com/originals/1a/13/4c/1a134c6ed59035b38a418e17ed866323.jpg) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .hero .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+} */
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,cyan, rgb(255, 0, 255));
+    color: transparent;
+    background-clip: text;
+}
+
+.hero-content h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background: #0ff;
+    color: #000;
+}
+
+.btn.primary:hover {
+    background: #0cc;
+}
+
+.btn.secondary {
+    border: 1px solid #0ff;
+    color: #0ff;
+}
+
+.btn.secondary:hover {
+    background: #0ff;
+    color: #000;
+}
