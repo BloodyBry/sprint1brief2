@@ -25,6 +25,7 @@ li {
     position: fixed;
     width: 100%;
     z-index: 999;
+    border-bottom: 1px solid rgb(61, 255, 255);
 }
 
 .navbar .logo {
@@ -111,7 +112,7 @@ li {
 
 .btn.primary {
     background: linear-gradient(to right,cyan, rgb(255, 0, 255));
-    color: #000;
+    color: #fff;
 }
 
 .btn.primary:hover {
